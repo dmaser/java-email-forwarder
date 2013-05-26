@@ -7,9 +7,9 @@ A simple Java app for forwarding email from multiple accounts
 
 2. Add to Eclipse workspace, if desired: Import -> Import Existing Projects into Workspace
 
-3. replace "????" in build.properties
+3. replace instances of "????" in build.properties
 
-4. replace "????" in email.properties
+4. replace instances of "????" in email.properties
 
 5. In root of project run:
 
@@ -17,7 +17,7 @@ A simple Java app for forwarding email from multiple accounts
 	
 6. if deploying to a remote server, run:
 
-	run ant "Deploy to EC2"
+	ant "Deploy to EC2"
 	
 7. in dist directory or remote directory, run:
 
