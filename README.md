@@ -22,3 +22,11 @@ A simple Java app for forwarding email from multiple accounts
 7. in dist directory or remote directory, run:
 
 	java -jar email.jar
+	
+Notes:
+=====
+
+Messages are not deleted after being forwarded and are left on the mail server.
+
+A text file containing seen UIDs (seen_uids.txt) will be created to track messages already forwarded.
+
